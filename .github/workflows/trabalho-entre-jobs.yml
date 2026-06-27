@@ -38,4 +38,4 @@ jobs:
         run: ls -lha
 
       - name: Acessa arquivo mensagem
-        run: cat mensagem.txt
+        run: cat ./strigus/mensagem.txt

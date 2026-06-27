@@ -15,7 +15,6 @@ jobs:
       - name: Exibir uma mensagem
         run: echo "Estou fazendo o curso de Github Actions da Linuxtips" > mensagem.txt
 
-jobs:
   job_2:
     runs-on: ubuntu-latest
     steps:

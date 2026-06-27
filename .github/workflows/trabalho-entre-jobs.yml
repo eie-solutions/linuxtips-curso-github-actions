@@ -17,7 +17,7 @@ jobs:
       - name: Exibir uma mensagem
         run: echo "Estou fazendo o curso de Github Actions da Linuxtips" > mensagem.txt
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: strigus
           path: mensagem.txt
@@ -28,7 +28,7 @@ jobs:
       - name: Exibe arquivos do diretório
         run: ls -lha
 
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v7
         with:
           name: strigus
           path: mensagem.txt

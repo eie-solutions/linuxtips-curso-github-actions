@@ -28,7 +28,7 @@ jobs:
       - name: Exibe arquivos do diretório
         run: ls -lha
 
-      - uses: actions/download-artifact@v7
+      - uses: actions/download-artifact@v8
         with:
           name: strigus
           path: mensagem.txt
